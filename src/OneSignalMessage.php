@@ -159,6 +159,7 @@ class OneSignalMessage
             'chrome_icon' => $this->icon,
             'adm_small_icon' => $this->icon,
             'small_icon' => $this->icon,
+            'app_id'=> config('services.onesignal.app_id')
         ];
 
         foreach ($this->data as $data => $value) {
